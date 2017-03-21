@@ -1,0 +1,27 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "testing APIs with mocha and chai",
+  "main": "server.js",
+  "scripts": {
+    "start" : "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "testing"
+  ],
+  "author": "udit kumawat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1"
+  }
+}
